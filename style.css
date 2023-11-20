@@ -1,0 +1,177 @@
+body {
+    font-family: "TT Commons", sans-serif;
+    margin: 0px;
+    font-size: 14px;
+}
+header{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-header{
+    width: 80px;
+}
+img{
+    width: 100%;
+}
+header ul{
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+header li a{
+    text-decoration: none;
+    color: black;
+    
+}
+header li a:hover{
+    color: #F03153;
+    
+}
+
+header li button{
+    background: #F03153;
+    color: #fff;
+    border-radius: 35px;
+    border: none;
+    padding: 10px;
+}
+header li button:hover{
+    background: #ff97aa;
+   cursor: pointer;
+}
+
+/* Page content  */
+
+.main-banner{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+
+.div-banner{
+    width: 100%;
+}
+.banner-text p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+}
+.banner-text h2{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    line-height: 0.72;
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.doble{
+    color: #F03153;
+
+}
+.nuke{
+    color: #FFC700;
+;
+}
+.burger{
+    color: #fff;
+
+}
+.banner-text button{
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+.banner-text button:hover{
+    background: #fff;
+    color: #F03153;
+    cursor: pointer;
+    border-color: #F03153;
+}
+/* Special nebu */
+.special-nebu{
+    background: #F4F5F7;
+
+}
+.special-nebu h2{
+    color: #F03153;
+    text-align: center;
+    font-size: 70px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+.special-nebu p{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.cards-container{
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 335px;
+}
+.card-img{
+    width: 100%;
+    margin: 0;
+}
+.card-img img{
+    border-radius: 30px 30px 0 0;
+}
+.card-text{
+    background: #fff;
+    border-radius: 0 0 30px 30px;
+    padding: 15px;
+    box-shadow: 0px 3px 19px -5px #8b8787;
+}
+.card-text h3{
+    margin: 0 auto;
+    font-size: 20px;
+}
+.card-text h4{
+    font-size: 20px;
+}
+.card-text h4 small{ 
+    font-size: 15px;
+    margin-right: 5px;
+}
+.card-text div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-text button{
+    background: #F03153;
+    color: #fff;
+    border-radius:40px;
+    border: none;
+    padding: 18px 15px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.card-text button:hover{
+    background: #ff97aa;
+   cursor: pointer;
+}
