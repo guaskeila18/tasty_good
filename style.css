@@ -1,6 +1,6 @@
 *{
-  /*  padding: 0;
-    margin: 0;*/
+    padding: 0;
+    margin: 0;
 }
 body {
     font-family: "TT Commons", sans-serif;
@@ -102,7 +102,6 @@ header li button:hover{
     margin-top: 20px;
 }
 .banner-text button:hover{
-    background: #fff;
     color: #F03153;
     cursor: pointer;
     border-color: #F03153;
@@ -184,6 +183,239 @@ header li button:hover{
     background: #ff97aa;
    cursor: pointer;
 }
+.btn-seemore{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+} 
+.btn-seemore button{
+    color: #000;
+    background: #F4F5F7;
+    border-color: #F4F5F7;
+    border: none;
+    padding: 30px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Banners content  */
+
+.main-banner3{
+    position: relative;
+}
+.text-banner{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    color: #fff;
+    width: 390px;
+}
+.text-banner p{
+    font-weight: 700;
+    font-size: 40px;
+}
+.text-banner h2{
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 0.74em;
+}
+.text-banner span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1em;
+    display: block;
+}
+.text-banner button{
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.text-banner button:hover{
+
+    color: #F03153;
+    cursor: pointer;
+    border-color: #F03153;
+
+}
+    
+.main-banner4{
+    border: 40px solid #fff;
+    position: relative;
+}
+.text-reservation{
+    position: absolute;
+    top: 35%;
+    right: 8%;
+    color: #fff;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.text-reservation p{
+    font-weight: 700;
+    font-size: 40px;
+   
+}
+.text-reservation h2{
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 0.74em;
+}
+.text-reservation button{
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.text-reservation button:hover{
+    color: #F03153;
+    cursor: pointer;
+    border-color: #F03153;
+}
+
+.main-membership{
+    position: relative;
+}
+.text-membership{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: #fff;
+    width: 390px;
+}
+.text-membership p{
+    font-weight: 700;
+    font-size: 40px;
+}
+.text-membership h2{
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 0.74em;
+    color: #FFC700;
+}
+.text-membership span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1em;
+    display: block;
+}
+.text-membership button{
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.text-membership button:hover{
+    color: #FFC700;
+    cursor: pointer;
+    border-color: #FFC700;
+}
+.cards-img{
+    position: absolute;
+    width: 650px;
+    top: 20%;
+    left: 60%;
+}
+
+/* Map */
+
+.map-banner{
+    background: #F4F5F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+    
+}
+.text-map{
+    width: 490px;
+}
+.text-map .our{
+    font-weight: 700;
+    font-size: 50px;
+    color: #000;
+}
+.text-map h2{
+    font-size: 85px;
+    font-weight: 900;
+    line-height: 0.74em;
+    color: #F03153;
+}
+.ubication{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1em;
+    display: block;
+    margin-top: 5px;
+}
+.text-map span{
+    font-weight: 500;
+    line-height: 1em;
+    color: #F03153;
+}
+.text-map button{
+    background: transparent;
+    border: 4px solid #F03153;
+    color: #F03153;
+    padding: 15px 30px;
+    border-radius: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.text-map button:hover{
+    color: #ff97aa;
+    cursor: pointer;
+    border-color: #ff97aa;
+}
+.map-img{
+    width: 750px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1100px) {
     .banner-text h2 {

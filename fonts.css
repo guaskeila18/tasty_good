@@ -28,4 +28,10 @@
       font-style: bold;
       font-weight: 900;
     }
+  @font-face {
+      font-family: 'TT Commons';
+      src: url('fonts/Fontspring-DEMO-tt_commons_pro_condensed_extrablack.otf') format('truetype');
+      font-style: bold;
+      font-weight: 1000;
+    }
   
