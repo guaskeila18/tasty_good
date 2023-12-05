@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+ul{
+    list-style: none;
+}
 body {
     font-family: "TT Commons", sans-serif;
     margin: 0px;
@@ -428,7 +431,7 @@ header li button:hover{
     display: flex;
     justify-content: center;
     position: relative;
-    padding: 20px 10px ;
+    padding: 30px 10px ;
 }
 .enlace-logo-footer{
     position: absolute;
@@ -445,12 +448,90 @@ header li button:hover{
     fill: #000
 }
 
+.fila-2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.footer-li{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+   
+}
+.footer-li li{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 
+}
+.footer-li a{
+    color: #fff;
+    text-decoration: none;
 
+}
+.footer-li svg{
+   margin-right: 20px;
 
-
-
-
+}
+h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.div-form form{
+    background: #fff;
+    padding: 28px 20px;
+    width: 380px;
+    border-radius: 10px;
+    
+}
+.div-form h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.div-form h4 span{
+    color: #F03153;
+}
+.div-input{
+    display: flex;
+}
+.div-form input[type="email"]{
+    background: #E3E3E3;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    height: 35px;
+    padding: 5px 10px;
+    width: 60%;
+}
+.div-form input[type="submit"]{
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    margin-left: -5%;
+    padding: 5px 10px;
+    width: 40%;
+    font-size: 13px;
+}
+.fila-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 30px;
+    gap: 5px;
+}
+.fila-3 p{
+    font-weight: 500;
+}
+.fila-3 span{
+    font-weight: 400;
+}
 
 
 
