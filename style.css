@@ -532,6 +532,27 @@ h5{
 .fila-3 span{
     font-weight: 400;
 }
+.make-form{
+    background: #F03153;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    font-size: 60px;
+    padding: 30px;
+}
+.formulariopadre{
+    display: flex;
+    justify-content: center;
+    align-items: none;
+    left: 20px;
+}
+.img-form{
+    width: 50%;
+}
+.formulario-reservacion{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
