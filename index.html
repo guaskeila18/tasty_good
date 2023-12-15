@@ -476,30 +476,44 @@
         <div>
           <p>Fill the form</p>
           <form class="formulario-reservacion" action="">
-            <div>
-              <div>
-                <label for="">Name*</label>
-                <input type="text" name="" id="">
+            <div class="div-column">
+              <div class="name">
+                <label for="">Name:</label>
+                <input type="text" placeholder="Enter your name" name="" id="Name">
               </div>
-              <div>
-                <label for="">Amount of people*</label>
-                <input type="text" name="" id="">
+              <div class="name">
+                <label for="">Amount of people:</label>
+                <input type="number" min="2" max="10" placeholder="5">
               </div>
             </div>
-            <div>
-              <input type="text" name="" id="">
-              <input type="text" name="" id="">
+            <div class="div-column">
+              <div class="name">
+                <label for="">Date:</label>
+                <input type="date" placeholder="DD/MM/YY">
+              </div>
+              <div class="name">
+                <label for="">Time:</label>
+                <input type="time" placeholder="00:00" name="" id="time">
+              </div>
             </div>
-            <div>
-              <input type="email" name="" id="" placeholder="Your email address"/>
-              <input type="text" name="" id="">
+            <div class="div-column">
+              <div class="name">
+                <label for="">Email:</label>
+                <input type="email" name="" id="" placeholder="Your email address" required/>
+              </div>
+              <div class="name">
+                <label for="">Phone Number:</label>
+                <input type="tel" placeholder="Enter your phone number">
+              </div>
             </div>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="name">
+              <label for="">Comments: </label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
             <input type="submit" value="Book a table" />
           </form>
         </div>
       </div>
-
     </div>
   </body>
 </html>
