@@ -18,16 +18,16 @@
         <nav>
           <ul>
             <li>
-              <a href="">Menu</a>
+              <a href="#menu">Menu</a>
             </li>
             <li>
-              <a href="">Reservation</a>
+              <a href="#reservation">Reservation</a>
             </li>
             <li>
-              <a href="">Blog</a>
+              <a href="#membership">Membership</a>
             </li>
             <li>
-              <a href="">About Us</a>
+              <a href="#location">Location</a>
             </li>
             <li>
               <button>Order Now</button>
@@ -72,7 +72,7 @@
         </div>
       </div>
     </section>
-    <section class="special-nebu">
+    <section class="special-nebu" id="menu">
       <h2>Our top five meals</h2>
       <p>Try our five bets meals today.</p>
       <div class="cards-container">
@@ -215,7 +215,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="reservation">
       <div class="main-banner4">
         <div class="div-banner4">
           <img src="img/rectangle4.webp" alt="" />
@@ -223,11 +223,11 @@
         <div class="text-reservation">
           <p>Get Your</p>
           <h2>RESERVATION</h2>
-          <button>Book Now!</button>
+          <button id="btnReservation">Book Now!</button>
         </div>
       </div>
     </section>
-    <section>
+    <section id="membership">
       <div class="main-membership">
         <div class="banner-membership">
           <img src="img/rectangle5.webp" alt="" />
@@ -246,7 +246,7 @@
         </div>
       </div>
     </section>
-    <section class="map-banner">
+    <section class="map-banner" id="location">
       <div class="text-map">
         <p class="our">Our Restaurant</p>
         <h2>LOCATIONS</h2>
@@ -467,7 +467,7 @@
         </p>
       </div>
     </footer>
-    <div class="make-form">
+    <div class="make-form" id="makeForm">
       <p>Make a 
         <br>
         reservation</p>
@@ -513,9 +513,11 @@
               <textarea name="" id="" cols="30" rows="5"></textarea>
             </div>
             <input type="submit" value="Book a table" />
+            <button type="button" id="btncerrarModal"> Cancelar</button>
           </form>
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

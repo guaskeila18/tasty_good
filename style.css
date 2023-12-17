@@ -5,6 +5,9 @@
 ul{
     list-style: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: "TT Commons", sans-serif;
     margin: 0px;
@@ -533,11 +536,10 @@ h5{
     font-weight: 400;
 }
 .make-form{
-    display: flex;
     align-items: center;
     background: #F03153;
     color: #fff;
-    display: flex;
+    display: none;
     font-weight: 700;
     font-size: 60px;
     padding: 80px;
@@ -590,6 +592,15 @@ h5{
 }
 .formulariopadre input[type="submit"]{
     background: #F03153;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight:400;
+    padding: 15px;
+    cursor: pointer;
+}
+.formulariopadre button{
+    background: #f0dd31;
     border-radius: 30px;
     border: none;
     color: #fff;
