@@ -1,0 +1,183 @@
+@media (max-width: 1400px) {
+  .text-map .our {
+    font-size: 30px;
+  }
+  .text-map h2 {
+    font-size: 60px;
+  }
+  .text-map .ubication {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1100px) {
+  .text-membership {
+    top: 22%;
+  }
+  .text-membership span {
+    font-size: 16px;
+    width: 300px;
+  }
+  .text-membership h2 {
+    font-size: 55px;
+  }
+  .map-img {
+    width: 45%;
+  }
+  .formulariopadre input[type="email"],
+  .formulariopadre input[type="text"],
+  .formulariopadre input[type="date"],
+  .formulariopadre input[type="time"],
+  .formulariopadre input[type="number"],
+  .formulariopadre input[type="tel"] {
+    height: 30px;
+    font-size: 10px;
+  }
+  .formulariopadre label {
+    font-size: 10px;
+  }
+  .formulario-reservacion {
+    gap: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .special-nebu h2 {
+    font-size: 50px;
+  }
+  .special-nebu p {
+    font-size: 20px;
+  }
+  .map-banner {
+    flex-direction: column-reverse;
+    gap: 3em;
+  }
+  .map-img {
+    width: 75%;
+  }
+  .text-map {
+    width: 95%;
+  }
+  .main-membership {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .text-membership {
+    width: 95%;
+  }
+  .cards-img {
+    width: 80%;
+  }
+  .make-form {
+    flex-direction: column;
+    padding: 1em;
+  }
+  .make-form p {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .formulariopadre {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+  }
+  .img-form {
+    margin: auto;
+  }
+  .div-formulario {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  header {
+    flex-direction: column;
+  }
+  header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+  }
+  .cards-container {
+    width: 95%;
+  }
+  .text-reservation h2 {
+    font-size: 50px;
+  }
+  .text-reservation p {
+    font-size: 25px;
+  }
+  .text-membership span {
+    font-size: 16px;
+    width: auto;
+  }
+
+  .fila-2 {
+    justify-content: center;
+  }
+  .footer-li {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 550px) {
+  .special-nebu h2 {
+    font-size: 35px;
+  }
+  .special-nebu p {
+    font-size: 16px;
+  }
+  .text-banner p {
+    font-size: 16px;
+  }
+  .text-banner h2 {
+    font-size: 50px;
+  }
+  .text-banner span {
+    font-size: 16px;
+  }
+  .text-reservation h2 {
+    font-size: 25px;
+  }
+  .text-reservation p {
+    font-size: 16px;
+  }
+
+  .div-form form {
+    width: 80%;
+  }
+
+  .text-membership h2 {
+    font-size: 35px;
+  }
+
+  .text-map h2 {
+    font-size: 25px;
+  }
+  .text-map .our {
+    font-size: 16px;
+  }
+  .footer1 {
+    flex-direction: column;
+    gap: 3em;
+  }
+  .fila-2 {
+    width: 100%;
+  }
+  .enlace-logo-footer {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: auto;
+  }
+  .networks {
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+  }
+}
+
+@media (max-width: 320px) {
+}
